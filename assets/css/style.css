@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* hero allows picture to display properly */
 .hero {
     height: 800px;
     width: 100%;
@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* all "benefits" allow for blocks to be margined, padded, and displayed properly  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +133,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* allows for margin, padding, and height to be displayed properly. Adds background color for the block, text color, and a font family */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +160,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Proper spacing between images */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -187,14 +187,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/* Proper spacing, family font added, and the text is centered. */
+ footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+ footer h2 {
     font-size: 20px;
 }
